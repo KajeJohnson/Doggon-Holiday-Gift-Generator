@@ -1,5 +1,12 @@
 body {
   background-color: #091612;
+  background-image: url("/images/holiday\ background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+
+  min-width: 100%;
+  min-height: 100%;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -242,7 +249,7 @@ header {
   position: absolute;
   top: -140px;
   display: none;
-  color: #ffffff;
+  color: #5e1620;
   width: 100%;
   text-align: center;
   font-size: 40px;
